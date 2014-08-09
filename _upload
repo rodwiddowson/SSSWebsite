@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+rsync --verbose --recursive --delete \
+	_site/ iay@iay.org.uk:steading.iay.org.uk/
