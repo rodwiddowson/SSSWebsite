@@ -437,79 +437,6 @@ font-style:italic;
 padding-bottom:5px;
 }
 
-#jflanguageselection
-{
-  text-align:center;
-  vertical-align: middle;
-  color:#fff;
-  padding-left:378px;
-  padding-bottom: 5px;
-  positive:absolute;
-}
-
-div.jflanguageselection
-{
-  float: right;
-  vertical-align: middle;
-  padding: 3px 2px 2px 2px;
-}
-
-/* language lists with UL (names & images) */
-#jflanguageselection ul.jflanguageselection
-{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-weight: normal;
-}
-
-#jflanguageselection ul.jflanguageselection li
-{
-  background-image: none;
-  padding-left: 0px;
-  padding-right: 0px;
-  float: left;
-  margin: 1px 1px 1px 1px;
-  white-space: nowrap;
-  border: none;
-  font-size: 0.9em;
-}
-
-#jflanguageselection ul.jflanguageselection li#active_language
-{
-  font-size: 11px;
-  font-weight: bold;
-}
-
-#jflanguageselection ul.jflanguageselection li a
-{
-  display: block;
-}
-
-#jflanguageselection ul.jflanguageselection img
-{
-  border: none;
-}
-
-
-/** Styles for the drop down list */
-
-#jflanguageselection select.jflanguageselection
-{
-  border: 1px solid #cccccc;
-  margin: 1px 1px 1px 1px;
-  padding: 0px 0px 1px 0px;
-  font-family: arial, helvetica, sans-serif;
-  font-size: 11px;
-  color: #c64934;
-}
-
-#jflanguageselection label.jflanguageselection
-{
-  position:absolute;
-  left:-1000px;
-}
-
 /** Controls Raw Display of Images **/
 
 .rawimages {
@@ -525,6 +452,3 @@ div.jflanguageselection
   border: none;
  }
 /** End Raw display of images **/
-
-div#jflanguageselection img.langImg{ float: right; border: none; margin-top: 3px; }
-div#jflanguageselection li img.langImg{ float: right; border: none; margin: 1px 3px 0px 0px; }
