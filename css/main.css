@@ -89,7 +89,7 @@ a:hover {
   font-family: tahoma, arial;
 }
 
-#left h3{
+#left h3 {
   color: #234663;
   text-transform: uppercase;
   font-weight:normal;
@@ -143,6 +143,7 @@ li.mostread {
 }
 
 #content ul {
+  margin-bottom: 15px;
   padding-left: 20px;
   list-style-position: inside;
   list-style-type: square;
@@ -214,7 +215,7 @@ div#nav li {
   vertical-align: middle;
 }
 
-div#nav a{
+div#nav a {
   float: left;
   height: 26px;
   line-height: 26px;
@@ -274,9 +275,9 @@ ul.menu a:hover,  #form-login a:hover, .latestnews a:hover, .mostread a:hover {
   background-image:none;
 }
 
-#left ul.menu #current a{
+#left ul.menu #current a {
   background-image: none;
-  background-color: #333333;;
+  background-color: #333333;
   color: #fff;
 }
 
@@ -426,15 +427,15 @@ fieldset.js_loginflat legend {
 }
 
 .modulegoogleADtop {
-padding-top:15px;
-padding-bottom:15px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .small, .createdate, .modifydate {
-line-height:10px;
-font-size:90%;
-font-style:italic;
-padding-bottom:5px;
+  line-height:10px;
+  font-size:90%;
+  font-style:italic;
+  padding-bottom:5px;
 }
 
 /** Controls Raw Display of Images **/

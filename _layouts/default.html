@@ -19,33 +19,16 @@
           <div id="left">
             <div id="leftInner">
               <div class="moduletable">
-                <h3>Recent Blog</h3>
-                <table class="contentpaneopen">
-                  <tbody>
-                    <tr>
-                      <td class="contentheading" width="100%">Bug in Filter Manager's FltIsDirectory</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="contentpaneopen">
-                  <tbody>
-                    <tr>
-                      <td valign="top" colspan="2">
-                        <p>In XP the implementation of FltIsDirectory is buggy. This document describes the issue and an opensource fix which pacthes filtermanager with a working solution.</p>
-                        <p>&nbsp;</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" colspan="2">
-                        <a href="http://www.steadingsoftware.com/bug-in-filter-manager-s-fltisdirectory.html" class="readon">
-                          Read more...</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <span class="article_seperator">&nbsp;</span>
-
+                <h3>Recent Blog Posts</h3>
+                {% for post in site.posts limit:2 %}
+                  <div class="contentpaneopen">
+                    <p class="contentheading">{{ post.date | date: "%b %-d, %Y" }}
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </p>
+                    <p>{{ post.excerpt }}</p>
+                  </div>
+                  <span class="article_seperator">&nbsp;</span>
+                {% endfor %}
               </div>
             </div>
           </div>

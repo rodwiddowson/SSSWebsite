@@ -4,7 +4,7 @@ title:  "Testing at the edge"
 date:   2014-08-01 12:12:12
 ---
 
-## Hints and tips for exploring the corners of your Windows FSD or File System filter.
+Hints and tips for exploring the corners of your Windows FSD or File System filter.
 
 Several people have recently asked me about testing "into the corners of the
 file system", and this article is an attempt to point out some of the darker
