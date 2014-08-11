@@ -128,8 +128,16 @@ li.mostread {
   padding-left: 60px;
 }
 
+#content h1 {
+  margin-bottom: 15px;
+}
+
+#content h2 {
+  margin-bottom: 15px;
+}
+
 #content p {
-  margin-top: 15px;
+  margin-bottom: 15px;
   line-height:15px;
   font-size: 11px;
 }
